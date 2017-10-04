@@ -1,0 +1,146 @@
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body {
+   background-color: black;
+   color:white;
+   /*overflow: hidden;*/
+
+}
+
+.header{
+   font-size:72px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 600;
+   padding-top: 40%;
+}
+
+.sub-header{
+   font-size:28px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;
+   padding-top: px;
+}
+
+.subscribe-form{
+   padding-top: 40px;
+   padding-bottom: 80px;
+}
+
+
+input[type=text]{
+    width: 65%;
+    padding: 12px 20px;
+    display: inline-block;
+    height:72px;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size:20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+input[type=email]{
+    width: 65%;
+    padding: 12px 20px;
+    display: inline-block;
+    height:72px;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size:20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+
+input[type=submit] {
+    width: 34%;
+    background-color: #FFC107;
+    color: white;
+    height:72px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size:20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin-left:-4px;
+
+
+}
+
+
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+   .header{
+   font-size:72px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 600;
+   padding-top: 20%;
+}
+
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+      .header{
+   font-size:72px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 600;
+   padding-top: 20%;
+}
+
+
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
