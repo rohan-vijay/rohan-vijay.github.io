@@ -1,0 +1,161 @@
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body {
+   background-color: #011227;
+   color:white;
+  font-family: 'Work Sans', sans-serif;
+
+   /*overflow: hidden;*/
+
+}
+
+.cover{
+  width:100%;
+  height:auto;
+}
+
+.profile{
+  width:100%;
+  height:auto;
+  margin-top: -75%;
+
+}
+
+button{
+  margin-top:16px;
+}
+
+
+.primary{
+    background-color: #011227; 
+    width:100%;
+    height:48px;
+    border: 1px solid #FFE211;   
+    color: #FFE211;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.secondary{
+    background-color: #011227; 
+    width:100%;
+    height:48px;
+    border: 1px solid #ffffff;   
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+.header{
+   font-size:48px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 600;
+   padding-top: 16px;
+}
+
+.subheader{
+   font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 600;
+   padding-top: 16px;
+   color:#969696;
+   letter-spacing: 1.4px;
+
+
+}
+
+.description{
+   font-size:18px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;
+   padding-top: 12px;
+   line-height: 1.6em;
+
+
+}
+
+.subtext{
+   font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;
+   padding-top: 12px;
+   line-height: 1.6em;
+  letter-spacing: 1px;
+
+
+}
+
+.images{
+  width:100%;
+  height:auto;
+
+}
+
+
+
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+      
+}
+
+
+	
+}
+
