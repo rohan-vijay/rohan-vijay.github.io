@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="107px" height="16px" viewBox="0 0 107 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFE211" offset="0%"></stop>
+            <stop stop-color="#FFC107" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-6" transform="translate(-371.000000, -774.000000)">
+            <g id="Group-2" transform="translate(371.000000, 742.000000)">
+                <g id="Group-Copy" transform="translate(0.000000, 32.000000)">
+                    <polygon id="Star" fill="url(#linearGradient-1)" points="9 13.2668737 3.4376941 16 4.5 10.2111456 0 6.11145618 6.21884705 5.26687371 9 0 11.7811529 5.26687371 18 6.11145618 13.5 10.2111456 14.5623059 16"></polygon>
+                    <polygon id="Star-Copy" fill="url(#linearGradient-1)" points="32 13.2668737 26.4376941 16 27.5 10.2111456 23 6.11145618 29.2188471 5.26687371 32 0 34.7811529 5.26687371 41 6.11145618 36.5 10.2111456 37.5623059 16"></polygon>
+                    <polygon id="Star-Copy-2" fill="url(#linearGradient-1)" points="54 13.2668737 48.4376941 16 49.5 10.2111456 45 6.11145618 51.2188471 5.26687371 54 0 56.7811529 5.26687371 63 6.11145618 58.5 10.2111456 59.5623059 16"></polygon>
+                    <polygon id="Star-Copy-3" fill="url(#linearGradient-1)" points="76 13.2668737 70.4376941 16 71.5 10.2111456 67 6.11145618 73.2188471 5.26687371 76 0 78.7811529 5.26687371 85 6.11145618 80.5 10.2111456 81.5623059 16"></polygon>
+                    <polygon id="Star-Copy-4" fill="#FFFFFF" opacity="0.306046196" points="98 13.2668737 92.4376941 16 93.5 10.2111456 89 6.11145618 95.2188471 5.26687371 98 0 100.781153 5.26687371 107 6.11145618 102.5 10.2111456 103.562306 16"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

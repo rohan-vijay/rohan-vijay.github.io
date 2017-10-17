@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="107px" height="17px" viewBox="0 0 107 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFE211" offset="0%"></stop>
+            <stop stop-color="#FFC107" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-6" transform="translate(-371.000000, -1212.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-3-Copy" transform="translate(369.000000, 997.000000)">
+                <g id="Group-2" transform="translate(2.000000, 183.000000)">
+                    <g id="Group-Copy" transform="translate(0.000000, 32.000000)">
+                        <polygon id="Star" points="9.26536313 13.6293103 3.81931932 16.4371027 4.85942114 10.4901031 0.453479149 6.27841455 6.54234123 5.410759 9.26536313 0 11.988385 5.410759 18.0772471 6.27841455 13.6713051 10.4901031 14.7114069 16.4371027"></polygon>
+                        <polygon id="Star-Copy" points="31.3826816 13.6293103 25.9366378 16.4371027 26.9767396 10.4901031 22.5707976 6.27841455 28.6596597 5.410759 31.3826816 0 34.1057035 5.410759 40.1945655 6.27841455 35.7886236 10.4901031 36.8287254 16.4371027"></polygon>
+                        <polygon id="Star-Copy-2" points="53.5 13.6293103 48.0539562 16.4371027 49.094058 10.4901031 44.688116 6.27841455 50.7769781 5.410759 53.5 0 56.2230219 5.410759 62.311884 6.27841455 57.905942 10.4901031 58.9460438 16.4371027"></polygon>
+                        <polygon id="Star-Copy-3" points="75.6173184 13.6293103 70.1712746 16.4371027 71.2113764 10.4901031 66.8054345 6.27841455 72.8942965 5.410759 75.6173184 0 78.3403403 5.410759 84.4292024 6.27841455 80.0232604 10.4901031 81.0633622 16.4371027"></polygon>
+                        <polygon id="Star-Copy-4" points="97.7346369 13.6293103 92.2885931 16.4371027 93.3286949 10.4901031 88.9227529 6.27841455 95.011615 5.410759 97.7346369 0 100.457659 5.410759 106.546521 6.27841455 102.140579 10.4901031 103.180681 16.4371027"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

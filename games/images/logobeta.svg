@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="349px" height="50px" viewBox="0 0 349 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-6" transform="translate(-566.000000, -58.000000)">
+            <g id="Group-7" transform="translate(566.000000, 48.000000)">
+                <g id="Group">
+                    <text id="digestbox" font-family="WorkSans-SemiBold, Work Sans" font-size="51.84" font-weight="500" letter-spacing="1.07999969" fill="#FFFFFF">
+                        <tspan x="48.96" y="48">digestbox</tspan>
+                    </text>
+                    <path d="M0,14.4 L37.44,14.4 L37.44,51.84 L0,51.84 L0,14.4 Z M12.24,26.64 L12.24,40.32 L25.92,40.32 L25.92,26.64 L12.24,26.64 Z" id="Combined-Shape" fill="#FFC107"></path>
+                </g>
+                <text id="beta" font-family="WorkSans-Regular, Work Sans" font-size="14" font-weight="normal" letter-spacing="0.840000033" fill="#FFFFFF">
+                    <tspan x="316" y="46">beta</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

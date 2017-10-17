@@ -9,6 +9,61 @@ body {
 
 }
 
+.betalogo {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    margin-top:48px;
+}
+
+.game-images{padding-top:4px;padding-bottom:24px}
+
+
+.game-name{
+   font-size:24px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+      letter-spacing: 1.4px;
+
+}
+
+.game-description{
+   font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;
+   letter-spacing: 1.4px;
+   padding-top: 16px;
+   padding-bottom: 20px;
+
+}
+
+.game-links a{
+   font-size:14px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+   color: #FFC107;
+
+}
+
+.game-links a:hover{
+   font-size:14px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+   color: #FFC107;
+   opacity: .8;
+   text-decoration: none;
+
+}
+
 .header{
    font-size:72px;
    font-family: 'Work Sans', sans-serif;

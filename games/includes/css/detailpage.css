@@ -145,13 +145,34 @@ button:focus {
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 
+  .profile{
+  width:35%;
+  height:auto;
+  margin-top: -20%;
+  vertical-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 
-	
 }
+
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
+@media (max-width: 768px) {  .profile{
+  width:35%;
+  height:auto;
+  margin-top: -20%;
+  vertical-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
       
 }
 
