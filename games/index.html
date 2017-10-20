@@ -14,6 +14,12 @@
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Carousel -->
+
+		<link rel="stylesheet" href="includes/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="includes/css/owl.theme.default.min.css">
+
 		
 		<!-- Custom CSS -->
 		<link href="includes/css/styles.css" rel="stylesheet">
@@ -39,6 +45,9 @@
 		
 	</head>
 	<body>
+		<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="includes/js/owl.carousel.min.js"></script>
+
 
 		<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1">
 		</div>
@@ -87,6 +96,32 @@
 
 
 
+				<script type="text/javascript">$(document).ready(function(){
+				  $(".owl-carousel").owlCarousel();
+				});
+				</script>
+
+				<script type="text/javascript">
+										$('.owl-carousel').owlCarousel({
+					    loop:true,
+					    margin:10,
+					    responsive:{
+					        0:{
+					            items:1.08,
+					            nav:false
+					        },
+					        600:{
+					            items:2,
+					            nav:true
+					        },
+					        1025:{
+					            items:3,
+					            nav:true
+					        }
+					    }
+					})
+
+				</script>
 
 
 

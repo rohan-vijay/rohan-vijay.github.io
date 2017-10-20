@@ -15,7 +15,9 @@
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-		
+		<link rel="stylesheet" href="includes/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="includes/css/owl.theme.default.min.css">
+
 		<!-- Custom CSS -->
 		<link href="includes/css/homepage.css" rel="stylesheet">
 		
@@ -42,6 +44,30 @@
 
 
 	<body>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="includes/js/owl.carousel.min.js"></script>
+		<div >
+		
+		<div class="owl-carousel col" style="margin-top:160px;">
+			  <div class="card">  
+				  <img src="images/slider2.png" ></img>
+			  </div>
+			  <div class="card"> 
+			  				  <img src="images/slider1.png" ></img>
+			  </div>
+			  <div class="card">
+			  				  <img src="images/slider3.png" ></img>
+
+			  </div>
+
+			  <div class="card"> 				  <img src="images/slider1.png" ></img>
+ </div>
+			  <div class="card"><img src="images/slider3.png" >  </div>
+			</div>
+
+
+		</div>
+
 		<div >
 			<img src="images/logobeta.svg" class="betalogo" "></img>
 		</div>
@@ -49,7 +75,7 @@
 		<div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 col-0">
 		</div>
 
-		<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 col-12" style ="margin-top:160px;">
+		<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 col-12" style ="margin-top:48px;">
 
 		<div class="game">
 			<div class="game-name">LAST OF US</div>
@@ -109,6 +135,38 @@
 
 
 
+				<script type="text/javascript">$(document).ready(function(){
+				  $(".owl-carousel").owlCarousel();
+				});
+				</script>
+
+				<script type="text/javascript">
+										$('.owl-carousel').owlCarousel({
+					    loop:false,
+					    margin:10,
+					         center: true,
+					             loop:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+
+
+
+
+					    responsive:{
+					        0:{
+					            items:1,
+					        },
+					        600:{
+					            items:1,
+					        },
+					        1025:{
+					            items:2.1,
+					        }
+					    }
+					})
+
+				</script>
 
 
 
