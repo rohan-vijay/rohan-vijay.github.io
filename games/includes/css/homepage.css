@@ -148,8 +148,10 @@ button:focus {
 
 
 /* --------------------------------------
-   Typography
+   Carousel
    -------------------------------------- */
+
+.owl-dot.active{color:#fff;}
 
 
 
@@ -184,6 +186,7 @@ button:focus {
    font-weight: 600;
    padding-top: 10%;
 }
+
 
 	
 }
