@@ -38,6 +38,11 @@
 
 		</script>
 		<link href="bootstrap/lightbox/swipebox.css" rel="stylesheet">
+		<link rel="stylesheet" href="includes/css/demo.css">
+		<link rel="stylesheet" href="includes/css/scrolltabs.css">
+
+
+
 
 
 	</head>
@@ -68,6 +73,10 @@
 
 		</div>
 
+
+
+
+
 		<div >
 			<img src="images/logobeta.png" class="betalogo" "></img>
 		</div>
@@ -77,7 +86,48 @@
 
 		<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 col-12" style ="margin-top:40px;">
 
-		<div class="game">
+
+
+
+
+
+			<nav class="primary"> 
+			<ul class="nav nav-pills" role="tablist">
+			  <li>
+			    <a class="active"href="#" data-filter="*" role="tab">ALL</a>
+			  </li>
+			  <li>
+			    <a href="#" data-filter=".sports" role="tab">PS4</a>
+			  </li>
+			  <li>
+			    <a  href="#" data-filter=".arcade" role="tab">PS3</a>
+			  </li>
+			  <li >
+			    <a  href="#" data-filter=".action" role="tab">XBOX</a>
+			  </li>
+
+			  <li >
+			    <a  href="#" data-filter=".action" role="tab">PC</a>
+			  </li>
+
+			</ul>
+			<hr style="color: #979797; opacity: .45; margin-top:12px; margin-bottom:48;">
+
+			</nav>
+			<!--
+			<nav class="primary"> 
+			    <ul class="side-label" style="padding-left: 0px;"> 
+			        <a href="#" data-filter="*" class="active">ALL</a> 
+			        <a href="#" data-filter=".sports">SPORTS</a>
+			       <a href="#" data-filter=".arcade">ARCADE</a>
+			    </ul> 
+			</nav >
+			<hr style="color: #979797; opacity: .45; margin-top:24px; margin-bottom:24px;">-->
+
+
+		<div class=" grid" data-isotope='{ "itemSelector": ".grid-item" }'>
+
+		<div class="game grid-item arcade all">
 			<div class="game-name">LAST OF US</div>
 			<div class="game-stars"><img src="images/4stars.svg" "></img></div>
 			<div class="game-description">The Last of Us is an action adventure survival horror video game developed by Naughty Dog and published by Sony Computer Entertainment.</div>
@@ -94,7 +144,7 @@
 			</div>
 		</div>
 
-		<div class="game">
+		<div class="game grid-item sports arcade all">
 			<div class="game-name">STAR WARS: BATTLEFRONT</div>
 			<div class="game-stars"><img src="images/5stars.svg" "></img></div>
 			<div class="game-description">Star Wars Battlefront is an action shooter video game developed by EA DICE, with additional work from Criterion Games, and published by EA.</div>
@@ -102,7 +152,7 @@
 				<img src="images/battlefront.png" style="width:100%;"></img>
 			</div>
 
-			<div class ="game-links">
+			<div class ="game-links ">
 
 			<a href ="www.youtube.com/lastofus" style="padding-right:24px;">TRAILER</a>
 			<a href ="www.amazon.com/lastofus" style="padding-right:24px;" target="_blank">BUY NOW</a>
@@ -110,8 +160,9 @@
 			<hr style="color: #979797; opacity: .45; margin-top:48px; margin-bottom:48px;">
 			</div>
 		</div>
+		
 
-		<div class="game">
+		<div class="game grid-item arcade sports all">
 			<div class="game-name">GRAND THEFT AUTO V</div>
 			<div class="game-stars"><img src="images/4stars.svg" "></img></div>
 			<div class="game-description">Star Wars Battlefront is an action shooter video game developed by EA DICE, with additional work from Criterion Games, and published by EA.</div>
@@ -129,12 +180,8 @@
 		</div>
 
 
-
+</div>
 		</div>
-
-
-
-
 				<script type="text/javascript">$(document).ready(function(){
 				  $(".owl-carousel").owlCarousel();
 				});
@@ -147,12 +194,8 @@
 					    center: true,
 					    loop:true,
 					    autoplay:true,
-					    autoplayTimeout:5000,
+					    autoplayTimeout:4000,
 					    autoplayHoverPause:true,
-
-
-
-
 					    responsive:{
 					        0:{
 					            items:1,
@@ -173,17 +216,59 @@
 
 
 
+				<script type="text/javascript">$(document).ready(function(){
+				  $(".navigationtabs").owlCarousel();
+				});
+				</script>
+
+				<script type="text/javascript">
+										$('.navigationtabs').owlCarousel({
+					    loop:false,
+					    margin:10,
+					    nav:false,
+					    responsive:{
+					        0:{
+					            items:1,
+					        },
+					        600:{
+					            items:1,
+					        },
+					        1025:{
+					            items:10,
+					        }
+					    }
+					})
+
+				</script>
+
+
+
 	<!-- First try for the online version of jQuery-->
 	<script src="http://code.jquery.com/jquery.js"></script>
 
 	<!-- If no online access, fallback to our hardcoded version of jQuery -->
 	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
-	
+		<!-- Isotope Slider -->
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+
 	<!-- Bootstrap JS -->
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	
 	<!-- Custom JS -->
 	<script src="includes/js/script.js"></script>
+	<script src="includes/js/carouselscript.js"></script>
+	<script src="includes/js/jquery.mousewheel.js"></script>
+	<script src="includes/js/jquery.scrolltabs.js"></script>
+
+	<script src="includes/js/scrolltabs.js"></script>
+
+
+
+
+
+
 	
 	</body>
 </html>

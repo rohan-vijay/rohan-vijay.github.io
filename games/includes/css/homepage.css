@@ -156,11 +156,97 @@ button:focus {
 
 
 /* --------------------------------------
-   Navbar
+   Tab Styling
    -------------------------------------- */
-   
-   
-   
+
+.side-label a:active {
+   font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+   color: #ADADAD;
+   text-decoration: none;
+   padding-right: 48px;
+
+}
+
+.side-label a{
+   font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+   color: #ADADAD;
+   text-decoration: none;
+   padding-right: 48px;
+
+}
+
+.side-label a:hover{
+   font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+   color: #FFC107;
+   text-decoration: none;
+   padding-right: 48px;
+}
+
+
+
+nav{background-color: black;}
+
+nav > .nav-pills > li > a{
+    background-color:black;
+       font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+
+
+  border: medium none;
+    color:#ADADAD;
+    padding-left:0px;
+    padding-right:32px;
+
+}
+
+nav > .nav-pills > li > a:hover{
+    background-color:black;
+       font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+
+
+  border: medium none;
+    color:#FFC107;
+}
+
+nav > .nav-pills > li > a:active{
+    background-color:black;
+       font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+
+
+  border: medium none;
+    color:#FFC107;
+}
+
+nav > .nav-pills > li > a:focus{
+    background-color:black;
+       font-size:16px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+
+
+  border: medium none;
+    color:#FFC107;
+}
+
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
