@@ -136,7 +136,7 @@ input[type=submit] {
 input:focus,
 select:focus,
 textarea:focus,
-button:focus {
+button:focus ,a:focus{
     outline: none;
 }
 
@@ -246,6 +246,9 @@ nav > .nav-pills > li > a:focus{
     color:#FFC107;
 }
 
+.sticky{position: fixed;
+  z-index: 1000;
+}
 
 /* --------------------------------------
    Carousel
