@@ -59,7 +59,7 @@
 		<script src="includes/js/owl.carousel.min.js"></script>
 		<div >
 		
-		<div class="owl-carousel owl-theme" style="margin-top:132px;">
+		<div class="owl-carousel owl-theme"   style="margin-top:132px;">
 
 			  <div class="card"> 	
 			  <a rel="cover" href="https://www.youtube.com/watch?v=ObvL15ynvPs" class="swipebox" title="Injustice 2">
@@ -157,6 +157,42 @@
 
 		<div class=" grid" data-isotope='{ "itemSelector": ".grid-item" }'>
 
+		<!--Testing of Carousel and Lightbox-->
+		<div class="game grid-item arcade all">
+			<div class="game-name">LAST OF US</div>
+			<div class="game-stars"><img src="images/4stars.svg" "></img></div>
+			<div class="game-description">The Last of Us is an action adventure survival horror video game developed by Naughty Dog and published by Sony Computer Entertainment.</div>
+			<div class="game-images">
+				<div>
+
+					  <div class="card"> 	
+					  <a rel="battlefront" href="https://www.youtube.com/watch?v=hh5HV4iic1Y" class="swipebox" title="Battlefront">
+						<img src="images/battlefront/image1.jpg" width="32%"  alt="image" ></img>
+					  </a>
+
+					  <a rel="battlefront" href="images/battlefront/image2.jpg" class="swipebox" title="Battlefront">
+						<img src="images/battlefront/image2.jpg" width="32%" alt="image" padding-right="5%"></img>
+					  </a>
+
+					  <a rel="battlefront" href="images/battlefront/image3.jpg" class="swipebox" title="Battlefront">
+						<img src="images/battlefront/image3.jpg" width="32%" alt="image"></img>
+					  </a>
+					  </div>
+
+
+				</div>
+
+
+			</div>
+
+			<div class ="game-links">
+
+			<a href ="www.youtube.com/lastofus" style="padding-right:24px;">TRAILER</a>
+			<a href ="www.amazon.com/lastofus" style="padding-right:24px;" target="_blank">BUY NOW</a>
+			<a href ="www.lastofus.com" target="_blank">WEBSITE</a>
+			<hr style="color: #979797; opacity: .45; margin-top:48px; margin-bottom:48px;">
+			</div>
+		</div>
 
 
 		<div class="game grid-item arcade all">
@@ -214,6 +250,8 @@
 
 </div>
 		</div>
+
+
 				<script type="text/javascript">$(document).ready(function(){
 				  $(".owl-carousel").owlCarousel();
 				});
@@ -251,7 +289,6 @@
 
 
 
-
 	<!-- First try for the online version of jQuery-->
 	<script src="http://code.jquery.com/jquery.js"></script>
 
@@ -277,8 +314,14 @@
 	<!--Swipebox-->
 	<script src="includes/js/jquery.swipebox.js"></script>
 
-	<!--Firing the swipebox plugin -->
 
+
+
+
+
+
+
+	<!--Firing the swipebox plugin -->
 	<script type="text/javascript">
 	;( function( $ ) {
 
@@ -287,8 +330,8 @@
 			useSVG : true, // false to force the use of png for buttons
 			initialIndexOnArray : 0, // which image index to init when a array is passed
 			hideCloseButtonOnMobile : false, // true will hide the close button on mobile devices
-			removeBarsOnMobile : true, // false will show top bar on mobile devices
-			hideBarsDelay : 300000000, // delay before hiding bars on desktop
+			removeBarsOnMobile : false, // false will show top bar on mobile devices
+			hideBarsDelay : 0, // delay before hiding bars on desktop
 			videoMaxWidth : 1140, // videos max width
 			beforeOpen: function() {}, // called before opening
 			afterOpen: null, // called after opening
@@ -298,10 +341,8 @@
 		} );
 
 	} )( jQuery );
+
 	</script>
-
-
-
 
 
 	
