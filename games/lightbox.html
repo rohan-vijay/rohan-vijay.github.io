@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>digestbox</title>
+		<meta name="digestbox" content="All the information you need before you buy a new game!">
+
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="includes/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="includes/css/owl.theme.default.min.css">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/homepage.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+		<!--WorkSans Font-->
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55209550-3"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-55209550-3');
+
+		</script>
+
+		<link href="bootstrap/lightbox/swipebox.css" rel="stylesheet">
+		<link rel="stylesheet" href="includes/css/demo.css">
+		<link rel="stylesheet" href="includes/css/scrolltabs.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
+
+		<!--for swipebox integration - lightbox -->
+		<link rel="stylesheet" href="includes/css/swipebox.css">
+
+
+
+
+	</head>
+
+
+	<body>
+
+		<div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 col-0">
+		</div>
+
+		<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 col-12" style ="margin-top:32px;">
+
+		<div class="game grid-item arcade all">
+			<div class="game-name">LAST OF US</div>
+			<div class="game-stars"><img src="images/4stars.svg" "></img></div>
+			<div class="game-description">The Last of Us is an action adventure survival horror video game developed by Naughty Dog and published by Sony Computer Entertainment.</div>
+			<div class="game-images swipebox">
+			<a rel="gallery-1" href="images/lastofus.png" class="swipebox" title="Last of Us">
+				<img src="images/lastofus.png" style="width:100%;" alt="image">
+			</a>
+
+			<a rel="gallery-1" href="images/battlefront.png" class="swipebox" title="Last of Us">
+				<img src="images/battlefront.png" style="width:100%;" alt="image">
+			</a>
+
+			</div>
+
+			<div class ="game-links">
+
+			<a href ="www.youtube.com/lastofus" style="padding-right:24px;">TRAILER</a>
+			<a href ="www.amazon.com/lastofus" style="padding-right:24px;" target="_blank">BUY NOW</a>
+			<a href ="www.lastofus.com" target="_blank">WEBSITE</a>
+			<hr style="color: #979797; opacity: .45; margin-top:48px; margin-bottom:48px;">
+			</div>
+		</div>
+
+
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+		<!-- Isotope Slider -->
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	<!--Swipebox-->
+	<script src="includes/js/jquery.swipebox.js"></script>
+
+	<!--Firing the swipebox plugin -->
+
+	<script type="text/javascript">
+	;( function( $ ) {
+
+		$( '.swipebox' ).swipebox( {
+			useCSS : true, // false will force the use of jQuery for animations
+			useSVG : true, // false to force the use of png for buttons
+			initialIndexOnArray : 0, // which image index to init when a array is passed
+			hideCloseButtonOnMobile : true, // true will hide the close button on mobile devices
+			removeBarsOnMobile : true, // false will show top bar on mobile devices
+			hideBarsDelay : 3000, // delay before hiding bars on desktop
+			videoMaxWidth : 1140, // videos max width
+			beforeOpen: function() {}, // called before opening
+			afterOpen: null, // called after opening
+			afterClose: function() {}, // called after closing
+			loopAtEnd: false // true will return to the first image after the last image is reached
+		} );
+
+	} )( jQuery );
+	</script>
+
+
+
+	
+	</body>
+</html>
+

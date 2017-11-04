@@ -158,7 +158,7 @@ button:focus ,a:focus{
 /* --------------------------------------
    Tab Styling
    -------------------------------------- */
-
+/*
 .side-label a:active {
    font-size:16px;
    font-family: 'Work Sans', sans-serif;
@@ -191,7 +191,7 @@ button:focus ,a:focus{
    padding-right: 48px;
 }
 
-
+*/
 
 nav{background-color: black;}
 
@@ -223,8 +223,8 @@ nav > .nav-pills > li > a:hover{
 }
 
 nav > .nav-pills > li > a:active{
-    background-color:black;
-       font-size:16px;
+   background-color:black;
+   font-size:16px;
    font-family: 'Work Sans', sans-serif;
    font-weight: 500;
    letter-spacing: 1.4px;
@@ -246,9 +246,8 @@ nav > .nav-pills > li > a:focus{
     color:#FFC107;
 }
 
-.sticky{position: fixed;
-  z-index: 1000;
-}
+
+
 
 /* --------------------------------------
    Carousel

@@ -20,7 +20,9 @@
 
 		<!-- Custom CSS -->
 		<link href="includes/css/homepage.css" rel="stylesheet">
-		
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>
+
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 
@@ -37,11 +39,15 @@
 		  gtag('config', 'UA-55209550-3');
 
 		</script>
+
 		<link href="bootstrap/lightbox/swipebox.css" rel="stylesheet">
 		<link rel="stylesheet" href="includes/css/demo.css">
 		<link rel="stylesheet" href="includes/css/scrolltabs.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
 
 
+		<!--for swipebox integration - lightbox -->
+		<link rel="stylesheet" href="includes/css/swipebox.css">
 
 
 
@@ -54,21 +60,40 @@
 		<div >
 		
 		<div class="owl-carousel owl-theme" style="margin-top:132px;">
-			  <div class="card">  
-				  <img src="images/slider2.png" ></img>
-			  </div>
-			  <div class="card"> 
-			  				  <img src="images/slider1.png" ></img>
-			  </div>
-			  <div class="card">
-			  				  <img src="images/slider3.png" ></img>
 
+			  <div class="card"> 	
+			  <a rel="cover" href="https://www.youtube.com/watch?v=ObvL15ynvPs" class="swipebox" title="Injustice 2">
+				<img src="images/slider2.png" style="width:100%;" alt="image"></img>
+			  </a>
 			  </div>
 
-			  <div class="card"> 				  <img src="images/slider1.png" ></img>
- </div>
-			  <div class="card"><img src="images/slider3.png" >  </div>
-			</div>
+			  <div class="card"> 	
+			  <a rel="cover" href="https://www.youtube.com/watch?v=hh5HV4iic1Y" class="swipebox" title="Unchartered 4">
+				<img src="images/slider1.png" style="width:100%;" alt="image"></img>
+			  </a>
+			  </div>
+
+			  <div class="card"> 	
+			  <a rel="cover" href="https://www.youtube.com/watch?v=QV7PK8AVEKA" class="swipebox" title="Fifa 18">
+				<img src="images/slider3.png" style="width:100%;" alt="image"></img>
+			  </a>
+			  </div>
+
+			  <div class="card"> 	
+			  <a rel="cover" href="https://www.youtube.com/watch?v=LSxElWwWVFE" class="swipebox" title="Destiny 2">
+				<img src="images/slider4.png" style="width:100%;" alt="image"></img>
+			  </a>
+			  </div>
+
+			  <div class="card"> 	
+			  <a rel="cover" href="https://www.youtube.com/watch?v=XJsha_16yrc" class="swipebox" title="Prey">
+				<img src="images/slider5.png" style="width:100%;" alt="image"></img>
+			  </a>
+			  </div>
+
+		</div>
+
+
 
 
 		</div>
@@ -91,7 +116,7 @@
 
 
 
-			<nav class="primary "> 
+			<nav class="primary" > 
 			<ul class="nav nav-pills" id="nav" role="tablist">
 			  <li>
 			    <a class="active" href="#" id ="next" data-filter="*" role="tab">ALL</a>
@@ -129,7 +154,10 @@
 			<hr style="color: #979797; opacity: .45; margin-top:24px; margin-bottom:24px;">-->
 
 
+
 		<div class=" grid" data-isotope='{ "itemSelector": ".grid-item" }'>
+
+
 
 		<div class="game grid-item arcade all">
 			<div class="game-name">LAST OF US</div>
@@ -220,30 +248,7 @@
 
 
 
-				<script type="text/javascript">$(document).ready(function(){
-				  $(".navigationtabs").owlCarousel();
-				});
-				</script>
 
-				<script type="text/javascript">
-										$('.navigationtabs').owlCarousel({
-					    loop:false,
-					    margin:10,
-					    nav:false,
-					    responsive:{
-					        0:{
-					            items:1,
-					        },
-					        600:{
-					            items:1,
-					        },
-					        1025:{
-					            items:10,
-					        }
-					    }
-					})
-
-				</script>
 
 
 
@@ -269,7 +274,30 @@
 	<script src="includes/js/scrolltabs.js"></script>
 	<script src="includes/js/stickyHeader.js"></script>
 
+	<!--Swipebox-->
+	<script src="includes/js/jquery.swipebox.js"></script>
 
+	<!--Firing the swipebox plugin -->
+
+	<script type="text/javascript">
+	;( function( $ ) {
+
+		$( '.swipebox' ).swipebox( {
+			useCSS : true, // false will force the use of jQuery for animations
+			useSVG : true, // false to force the use of png for buttons
+			initialIndexOnArray : 0, // which image index to init when a array is passed
+			hideCloseButtonOnMobile : true, // true will hide the close button on mobile devices
+			removeBarsOnMobile : true, // false will show top bar on mobile devices
+			hideBarsDelay : 3000, // delay before hiding bars on desktop
+			videoMaxWidth : 1140, // videos max width
+			beforeOpen: function() {}, // called before opening
+			afterOpen: null, // called after opening
+			afterClose: function() {}, // called after closing
+			loopAtEnd: false // true will return to the first image after the last image is reached
+		} );
+
+	} )( jQuery );
+	</script>
 
 
 
