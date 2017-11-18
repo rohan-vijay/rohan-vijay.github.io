@@ -5,3 +5,8 @@ html, body {
   margin: 0;
   overflow: hidden;
 }
+
+#bm {
+  width: 10%;
+  height: 10%;
+}
