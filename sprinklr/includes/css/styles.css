@@ -1,0 +1,79 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+body{font-family: 'Source Sans Pro', sans-serif;}
+
+h1 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 48px;
+   font-weight: 600;
+   color: #0828CC;
+   }
+
+
+h2 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 28px;
+   font-weight: 300;
+   color: #A9A9B2;
+   line-height: 1.4;
+
+   
+   }
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
