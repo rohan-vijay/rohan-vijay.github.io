@@ -1,0 +1,141 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body
+   {  
+      font-family: 'Work Sans', sans-serif;
+      color:black;
+   }
+
+.title 
+   {
+      font-weight: 600;
+      font-size: 32px;
+      margin-top:56px;
+   }
+
+.subtitle 
+   {
+      font-weight: 400;
+      font-size: 20px;
+      margin-top:4px;
+      color: #A9A9B2;
+      margin-bottom:48px;
+   }
+
+.crypto-name 
+   {
+      font-weight: 400;
+      font-size: 24px;
+      margin-top:24px;
+      color: black;
+   }
+
+.crypto-label 
+   {
+      font-weight: 300;
+      font-size: 16px;
+      color: #73737D ;
+      margin-top:8px;
+   }
+
+.crypto-label-price
+   {
+      font-weight: 300;
+      font-size: 16px;
+      color: #73737D ;
+      margin-top:8px;
+   }
+
+.crypto-price 
+   {
+      font-weight: 600;
+      font-size: 32px;
+      color: black;
+      margin-top:4px;
+   }
+
+.crypto-min 
+   {
+      font-weight: 600;
+      font-size: 24px;
+      color: #E93B4B;
+      margin-top:12px;
+   }
+
+.crypto-max 
+   {
+      font-weight: 600;
+      font-size: 24px;
+      color: #7ED321;
+      margin-top:12px;
+   }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+hr
+{
+   color:#EFEFF8;
+   margin-top:32px;
+
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 800px) {
+
+   .crypto-label-price
+   {
+      font-weight: 00;
+      font-size: 0px;
+      color: #73737D ;
+      margin-top:0px;
+   }
+
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
